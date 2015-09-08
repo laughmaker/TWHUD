@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28371D231B9EB33B0012CEF6 /* a1e34399jw1dsz980pgi5j.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 28371D221B9EB33B0012CEF6 /* a1e34399jw1dsz980pgi5j.jpg */; settings = {ASSET_TAGS = (); }; };
 		286F882F1B9D95440092639B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 286F882E1B9D95440092639B /* main.m */; };
 		286F88321B9D95440092639B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 286F88311B9D95440092639B /* AppDelegate.m */; };
 		286F88351B9D95440092639B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 286F88341B9D95440092639B /* ViewController.m */; };
@@ -15,6 +16,7 @@
 		286F883D1B9D95440092639B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 286F883B1B9D95440092639B /* LaunchScreen.storyboard */; };
 		286F88481B9D95440092639B /* XTHUDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 286F88471B9D95440092639B /* XTHUDTests.m */; };
 		286F88531B9D95440092639B /* XTHUDUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 286F88521B9D95440092639B /* XTHUDUITests.m */; };
+		28AC50E61B9D9AAD00DD05B7 /* XTProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 28AC50E51B9D9AAD00DD05B7 /* XTProgressHUD.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		28371D221B9EB33B0012CEF6 /* a1e34399jw1dsz980pgi5j.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = a1e34399jw1dsz980pgi5j.jpg; path = "../../../../../Pictures/壁纸/a1e34399jw1dsz980pgi5j.jpg"; sourceTree = "<group>"; };
 		286F882A1B9D95440092639B /* XTHUD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XTHUD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		286F882E1B9D95440092639B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		286F88301B9D95440092639B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +54,8 @@
 		286F884E1B9D95440092639B /* XTHUDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XTHUDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		286F88521B9D95440092639B /* XTHUDUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XTHUDUITests.m; sourceTree = "<group>"; };
 		286F88541B9D95440092639B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28AC50E41B9D9AAD00DD05B7 /* XTProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTProgressHUD.h; sourceTree = "<group>"; };
+		28AC50E51B9D9AAD00DD05B7 /* XTProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTProgressHUD.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +106,7 @@
 		286F882C1B9D95440092639B /* XTHUD */ = {
 			isa = PBXGroup;
 			children = (
+				28AC50E31B9D9AAD00DD05B7 /* HUD */,
 				286F88301B9D95440092639B /* AppDelegate.h */,
 				286F88311B9D95440092639B /* AppDelegate.m */,
 				286F88331B9D95440092639B /* ViewController.h */,
@@ -117,6 +123,7 @@
 		286F882D1B9D95440092639B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				28371D221B9EB33B0012CEF6 /* a1e34399jw1dsz980pgi5j.jpg */,
 				286F882E1B9D95440092639B /* main.m */,
 			);
 			name = "Supporting Files";
@@ -139,6 +146,15 @@
 			);
 			path = XTHUDUITests;
 			sourceTree = "<group>";
+		};
+		28AC50E31B9D9AAD00DD05B7 /* HUD */ = {
+			isa = PBXGroup;
+			children = (
+				28AC50E41B9D9AAD00DD05B7 /* XTProgressHUD.h */,
+				28AC50E51B9D9AAD00DD05B7 /* XTProgressHUD.m */,
+			);
+			path = HUD;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -246,6 +262,7 @@
 				286F883D1B9D95440092639B /* LaunchScreen.storyboard in Resources */,
 				286F883A1B9D95440092639B /* Assets.xcassets in Resources */,
 				286F88381B9D95440092639B /* Main.storyboard in Resources */,
+				28371D231B9EB33B0012CEF6 /* a1e34399jw1dsz980pgi5j.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +287,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28AC50E61B9D9AAD00DD05B7 /* XTProgressHUD.m in Sources */,
 				286F88351B9D95440092639B /* ViewController.m in Sources */,
 				286F88321B9D95440092639B /* AppDelegate.m in Sources */,
 				286F882F1B9D95440092639B /* main.m in Sources */,
@@ -496,6 +514,7 @@
 				286F88591B9D95440092639B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		286F885A1B9D95440092639B /* Build configuration list for PBXNativeTarget "XTHUDTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +523,7 @@
 				286F885C1B9D95440092639B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		286F885D1B9D95440092639B /* Build configuration list for PBXNativeTarget "XTHUDUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +532,7 @@
 				286F885F1B9D95440092639B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
