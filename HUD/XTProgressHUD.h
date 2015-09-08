@@ -14,6 +14,11 @@
 
 @interface XTProgressHUD : UIView
 
+/**
+ *  便利方法创建实例对象
+ *
+ *  @return Progress实例对象
+ */
 + (instancetype)progressHUD;
 
 /**
@@ -35,6 +40,12 @@
  */
 - (void)hideHud;
 
+/**
+ *  显示提示文本内容
+ *
+ *  @param text  文本内容
+ *  @param aView 显示的父视图
+ */
 + (void)showText:(NSString *)text atView:(UIView *)aView;
 
 
