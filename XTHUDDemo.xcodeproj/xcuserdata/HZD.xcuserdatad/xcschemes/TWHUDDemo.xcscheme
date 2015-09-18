@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "286F88291B9D95430092639B"
-               BuildableName = "XTHUD.app"
-               BlueprintName = "XTHUD"
-               ReferencedContainer = "container:XTHUD.xcodeproj">
+               BuildableName = "XTHUDDemo.app"
+               BlueprintName = "XTHUDDemo"
+               ReferencedContainer = "container:XTHUDDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "286F88421B9D95440092639B"
-               BuildableName = "XTHUDTests.xctest"
-               BlueprintName = "XTHUDTests"
-               ReferencedContainer = "container:XTHUD.xcodeproj">
+               BuildableName = "XTHUDDemo.xctest"
+               BlueprintName = "XTHUDDemoTests"
+               ReferencedContainer = "container:XTHUDDemo.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "286F884D1B9D95440092639B"
-               BuildableName = "XTHUDUITests.xctest"
-               BlueprintName = "XTHUDUITests"
-               ReferencedContainer = "container:XTHUD.xcodeproj">
+               BuildableName = "XTHUDDemo.xctest"
+               BlueprintName = "XTHUDDemoUITests"
+               ReferencedContainer = "container:XTHUDDemo.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "286F88291B9D95430092639B"
-            BuildableName = "XTHUD.app"
-            BlueprintName = "XTHUD"
-            ReferencedContainer = "container:XTHUD.xcodeproj">
+            BuildableName = "XTHUDDemo.app"
+            BlueprintName = "XTHUDDemo"
+            ReferencedContainer = "container:XTHUDDemo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "286F88291B9D95430092639B"
-            BuildableName = "XTHUD.app"
-            BlueprintName = "XTHUD"
-            ReferencedContainer = "container:XTHUD.xcodeproj">
+            BuildableName = "XTHUDDemo.app"
+            BlueprintName = "XTHUDDemo"
+            ReferencedContainer = "container:XTHUDDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "286F88291B9D95430092639B"
-            BuildableName = "XTHUD.app"
-            BlueprintName = "XTHUD"
-            ReferencedContainer = "container:XTHUD.xcodeproj">
+            BuildableName = "XTHUDDemo.app"
+            BlueprintName = "XTHUDDemo"
+            ReferencedContainer = "container:XTHUDDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

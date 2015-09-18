@@ -7,24 +7,21 @@
 //
 
 // block self
-#define XTWeakSelf  __weak typeof (self)weakSelf = self;
-#define XTStrongSelf typeof(weakSelf) __strong strongSelf = weakSelf;
+#define TWWeakSelf  __weak typeof (self)weakSelf = self;
+#define TWStrongSelf typeof(weakSelf) __strong strongSelf = weakSelf;
 
-#import "XTProgressHUD.h"
+#import "TWHUD.h"
 
-@interface XTProgressHUD ()
-@property (strong, nonatomic) UIToolbar *contentView;
-@property (strong, nonatomic) UILabel *textLbl;
-@property (strong, nonatomic) UIActivityIndicatorView *indicatorView;
+@interface TWHUD ()
 
 @end
 
 
-@implementation XTProgressHUD
+@implementation TWHUD
 
-+ (instancetype)progressHUD
++ (instancetype)hud
 {
-    return [[XTProgressHUD alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    return [[TWHUD alloc] initWithFrame:[UIScreen mainScreen].bounds];
 }
 
 - (instancetype)initWithFrame:(CGRect)frame
@@ -38,7 +35,7 @@
         [self addSubview:self.contentView];
         
         self.indicatorView = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleGray];
-        self.indicatorView.color = [UIColor darkGrayColor];
+        self.indicatorView.color = [UIColor darkTextColor];
         [self.indicatorView startAnimating];
         [self.contentView addSubview:self.indicatorView];
         
@@ -76,7 +73,7 @@
 
 - (void)hideHud
 {
-    XTWeakSelf;
+    TWWeakSelf;
     [UIView animateWithDuration:0.45 animations:^{
         weakSelf.alpha = 0.0;
     } completion:^(BOOL finished) {
@@ -84,25 +81,25 @@
     }];
 }
 
-
 + (void)showText:(NSString *)text atView:(UIView *)aView
 {
     UILabel *lbl = [[UILabel alloc] init];
     lbl.text = text;
     lbl.textAlignment = NSTextAlignmentCenter;
+    lbl.textColor = [UIColor whiteColor];
     lbl.font = [UIFont systemFontOfSize:14.5];
-    lbl.backgroundColor = [UIColor colorWithWhite:0.869 alpha:1.000];
-    lbl.shadowColor = [UIColor colorWithWhite:0.823 alpha:0.427];
+    lbl.backgroundColor = [[UIColor blackColor] colorWithAlphaComponent:0.7];
+    lbl.shadowColor = [[UIColor blackColor] colorWithAlphaComponent:0.7];
     [lbl sizeToFit];
     lbl.layer.cornerRadius = 8;
     lbl.clipsToBounds = YES;
     [aView addSubview:lbl];
     
     lbl.center = CGPointMake(aView.center.x, aView.bounds.size.height);
-    lbl.bounds = CGRectMake(0, 0, lbl.bounds.size.width + 18, lbl.bounds.size.height + 12);
+    lbl.bounds = CGRectMake(0, 0, lbl.bounds.size.width + 20, lbl.bounds.size.height + 16);
 
     [UIView animateWithDuration:1.15 delay:0 usingSpringWithDamping:0.3 initialSpringVelocity:0.2 options:UIViewAnimationOptionCurveEaseInOut animations:^{
-        lbl.center = CGPointMake(aView.center.x, aView.bounds.size.height - 40);
+        lbl.center = CGPointMake(aView.center.x, aView.bounds.size.height - 50);
     } completion:^(BOOL finished) {
         [UIView animateWithDuration:0.75 delay:0.75 usingSpringWithDamping:1 initialSpringVelocity:1 options:UIViewAnimationOptionCurveEaseInOut animations:^{
             lbl.center = CGPointMake(aView.center.x, aView.bounds.size.height + 30);

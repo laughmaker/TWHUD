@@ -7,16 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		28371D231B9EB33B0012CEF6 /* a1e34399jw1dsz980pgi5j.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 28371D221B9EB33B0012CEF6 /* a1e34399jw1dsz980pgi5j.jpg */; settings = {ASSET_TAGS = (); }; };
+		28371D231B9EB33B0012CEF6 /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 28371D221B9EB33B0012CEF6 /* bg.jpg */; settings = {ASSET_TAGS = (); }; };
+		286AA5D11BABE27100EEA6D1 /* TWHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 286AA5D01BABE27100EEA6D1 /* TWHUD.m */; settings = {ASSET_TAGS = (); }; };
 		286F882F1B9D95440092639B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 286F882E1B9D95440092639B /* main.m */; };
 		286F88321B9D95440092639B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 286F88311B9D95440092639B /* AppDelegate.m */; };
 		286F88351B9D95440092639B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 286F88341B9D95440092639B /* ViewController.m */; };
 		286F88381B9D95440092639B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 286F88361B9D95440092639B /* Main.storyboard */; };
 		286F883A1B9D95440092639B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 286F88391B9D95440092639B /* Assets.xcassets */; };
 		286F883D1B9D95440092639B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 286F883B1B9D95440092639B /* LaunchScreen.storyboard */; };
-		286F88481B9D95440092639B /* XTHUDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 286F88471B9D95440092639B /* XTHUDTests.m */; };
-		286F88531B9D95440092639B /* XTHUDUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 286F88521B9D95440092639B /* XTHUDUITests.m */; };
-		28AC50E61B9D9AAD00DD05B7 /* XTProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 28AC50E51B9D9AAD00DD05B7 /* XTProgressHUD.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +35,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		28371D221B9EB33B0012CEF6 /* a1e34399jw1dsz980pgi5j.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = a1e34399jw1dsz980pgi5j.jpg; path = "../../../../../Pictures/壁纸/a1e34399jw1dsz980pgi5j.jpg"; sourceTree = "<group>"; };
-		286F882A1B9D95440092639B /* XTHUD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XTHUD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28371D221B9EB33B0012CEF6 /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bg.jpg; path = "../../../../../Pictures/壁纸/bg.jpg"; sourceTree = "<group>"; };
+		286AA5CF1BABE27100EEA6D1 /* TWHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWHUD.h; sourceTree = "<group>"; };
+		286AA5D01BABE27100EEA6D1 /* TWHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWHUD.m; sourceTree = "<group>"; };
+		286F882A1B9D95440092639B /* XTHUDDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XTHUDDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		286F882E1B9D95440092639B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		286F88301B9D95440092639B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		286F88311B9D95440092639B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -48,14 +48,8 @@
 		286F88391B9D95440092639B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		286F883C1B9D95440092639B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		286F883E1B9D95440092639B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		286F88431B9D95440092639B /* XTHUDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XTHUDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		286F88471B9D95440092639B /* XTHUDTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XTHUDTests.m; sourceTree = "<group>"; };
-		286F88491B9D95440092639B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		286F884E1B9D95440092639B /* XTHUDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XTHUDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		286F88521B9D95440092639B /* XTHUDUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XTHUDUITests.m; sourceTree = "<group>"; };
-		286F88541B9D95440092639B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		28AC50E41B9D9AAD00DD05B7 /* XTProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTProgressHUD.h; sourceTree = "<group>"; };
-		28AC50E51B9D9AAD00DD05B7 /* XTProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTProgressHUD.m; sourceTree = "<group>"; };
+		286F88431B9D95440092639B /* XTHUDDemo.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XTHUDDemo.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		286F884E1B9D95440092639B /* XTHUDDemo.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XTHUDDemo.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,12 +77,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		286AA5CE1BABE27100EEA6D1 /* TWHUD */ = {
+			isa = PBXGroup;
+			children = (
+				286AA5CF1BABE27100EEA6D1 /* TWHUD.h */,
+				286AA5D01BABE27100EEA6D1 /* TWHUD.m */,
+			);
+			path = TWHUD;
+			sourceTree = "<group>";
+		};
 		286F88211B9D95430092639B = {
 			isa = PBXGroup;
 			children = (
-				286F882C1B9D95440092639B /* XTHUD */,
-				286F88461B9D95440092639B /* XTHUDTests */,
-				286F88511B9D95440092639B /* XTHUDUITests */,
+				286AA5CE1BABE27100EEA6D1 /* TWHUD */,
+				286F882C1B9D95440092639B /* TWHUDDemo */,
 				286F882B1B9D95440092639B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -96,17 +98,16 @@
 		286F882B1B9D95440092639B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				286F882A1B9D95440092639B /* XTHUD.app */,
-				286F88431B9D95440092639B /* XTHUDTests.xctest */,
-				286F884E1B9D95440092639B /* XTHUDUITests.xctest */,
+				286F882A1B9D95440092639B /* XTHUDDemo.app */,
+				286F88431B9D95440092639B /* XTHUDDemo.xctest */,
+				286F884E1B9D95440092639B /* XTHUDDemo.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		286F882C1B9D95440092639B /* XTHUD */ = {
+		286F882C1B9D95440092639B /* TWHUDDemo */ = {
 			isa = PBXGroup;
 			children = (
-				28AC50E31B9D9AAD00DD05B7 /* HUD */,
 				286F88301B9D95440092639B /* AppDelegate.h */,
 				286F88311B9D95440092639B /* AppDelegate.m */,
 				286F88331B9D95440092639B /* ViewController.h */,
@@ -117,51 +118,24 @@
 				286F883E1B9D95440092639B /* Info.plist */,
 				286F882D1B9D95440092639B /* Supporting Files */,
 			);
-			path = XTHUD;
+			path = TWHUDDemo;
 			sourceTree = "<group>";
 		};
 		286F882D1B9D95440092639B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				28371D221B9EB33B0012CEF6 /* a1e34399jw1dsz980pgi5j.jpg */,
+				28371D221B9EB33B0012CEF6 /* bg.jpg */,
 				286F882E1B9D95440092639B /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		286F88461B9D95440092639B /* XTHUDTests */ = {
-			isa = PBXGroup;
-			children = (
-				286F88471B9D95440092639B /* XTHUDTests.m */,
-				286F88491B9D95440092639B /* Info.plist */,
-			);
-			path = XTHUDTests;
-			sourceTree = "<group>";
-		};
-		286F88511B9D95440092639B /* XTHUDUITests */ = {
-			isa = PBXGroup;
-			children = (
-				286F88521B9D95440092639B /* XTHUDUITests.m */,
-				286F88541B9D95440092639B /* Info.plist */,
-			);
-			path = XTHUDUITests;
-			sourceTree = "<group>";
-		};
-		28AC50E31B9D9AAD00DD05B7 /* HUD */ = {
-			isa = PBXGroup;
-			children = (
-				28AC50E41B9D9AAD00DD05B7 /* XTProgressHUD.h */,
-				28AC50E51B9D9AAD00DD05B7 /* XTProgressHUD.m */,
-			);
-			path = HUD;
-			sourceTree = SOURCE_ROOT;
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		286F88291B9D95430092639B /* XTHUD */ = {
+		286F88291B9D95430092639B /* XTHUDDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 286F88571B9D95440092639B /* Build configuration list for PBXNativeTarget "XTHUD" */;
+			buildConfigurationList = 286F88571B9D95440092639B /* Build configuration list for PBXNativeTarget "XTHUDDemo" */;
 			buildPhases = (
 				286F88261B9D95430092639B /* Sources */,
 				286F88271B9D95430092639B /* Frameworks */,
@@ -171,14 +145,14 @@
 			);
 			dependencies = (
 			);
-			name = XTHUD;
+			name = XTHUDDemo;
 			productName = XTHUD;
-			productReference = 286F882A1B9D95440092639B /* XTHUD.app */;
+			productReference = 286F882A1B9D95440092639B /* XTHUDDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		286F88421B9D95440092639B /* XTHUDTests */ = {
+		286F88421B9D95440092639B /* XTHUDDemoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 286F885A1B9D95440092639B /* Build configuration list for PBXNativeTarget "XTHUDTests" */;
+			buildConfigurationList = 286F885A1B9D95440092639B /* Build configuration list for PBXNativeTarget "XTHUDDemoTests" */;
 			buildPhases = (
 				286F883F1B9D95440092639B /* Sources */,
 				286F88401B9D95440092639B /* Frameworks */,
@@ -189,14 +163,14 @@
 			dependencies = (
 				286F88451B9D95440092639B /* PBXTargetDependency */,
 			);
-			name = XTHUDTests;
+			name = XTHUDDemoTests;
 			productName = XTHUDTests;
-			productReference = 286F88431B9D95440092639B /* XTHUDTests.xctest */;
+			productReference = 286F88431B9D95440092639B /* XTHUDDemo.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		286F884D1B9D95440092639B /* XTHUDUITests */ = {
+		286F884D1B9D95440092639B /* XTHUDDemoUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 286F885D1B9D95440092639B /* Build configuration list for PBXNativeTarget "XTHUDUITests" */;
+			buildConfigurationList = 286F885D1B9D95440092639B /* Build configuration list for PBXNativeTarget "XTHUDDemoUITests" */;
 			buildPhases = (
 				286F884A1B9D95440092639B /* Sources */,
 				286F884B1B9D95440092639B /* Frameworks */,
@@ -207,9 +181,9 @@
 			dependencies = (
 				286F88501B9D95440092639B /* PBXTargetDependency */,
 			);
-			name = XTHUDUITests;
+			name = XTHUDDemoUITests;
 			productName = XTHUDUITests;
-			productReference = 286F884E1B9D95440092639B /* XTHUDUITests.xctest */;
+			productReference = 286F884E1B9D95440092639B /* XTHUDDemo.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -234,7 +208,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 286F88251B9D95430092639B /* Build configuration list for PBXProject "XTHUD" */;
+			buildConfigurationList = 286F88251B9D95430092639B /* Build configuration list for PBXProject "XTHUDDemo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -247,9 +221,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				286F88291B9D95430092639B /* XTHUD */,
-				286F88421B9D95440092639B /* XTHUDTests */,
-				286F884D1B9D95440092639B /* XTHUDUITests */,
+				286F88291B9D95430092639B /* XTHUDDemo */,
+				286F88421B9D95440092639B /* XTHUDDemoTests */,
+				286F884D1B9D95440092639B /* XTHUDDemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -262,7 +236,7 @@
 				286F883D1B9D95440092639B /* LaunchScreen.storyboard in Resources */,
 				286F883A1B9D95440092639B /* Assets.xcassets in Resources */,
 				286F88381B9D95440092639B /* Main.storyboard in Resources */,
-				28371D231B9EB33B0012CEF6 /* a1e34399jw1dsz980pgi5j.jpg in Resources */,
+				28371D231B9EB33B0012CEF6 /* bg.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,7 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28AC50E61B9D9AAD00DD05B7 /* XTProgressHUD.m in Sources */,
+				286AA5D11BABE27100EEA6D1 /* TWHUD.m in Sources */,
 				286F88351B9D95440092639B /* ViewController.m in Sources */,
 				286F88321B9D95440092639B /* AppDelegate.m in Sources */,
 				286F882F1B9D95440092639B /* main.m in Sources */,
@@ -298,7 +272,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				286F88481B9D95440092639B /* XTHUDTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,7 +279,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				286F88531B9D95440092639B /* XTHUDUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,12 +287,12 @@
 /* Begin PBXTargetDependency section */
 		286F88451B9D95440092639B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 286F88291B9D95430092639B /* XTHUD */;
+			target = 286F88291B9D95430092639B /* XTHUDDemo */;
 			targetProxy = 286F88441B9D95440092639B /* PBXContainerItemProxy */;
 		};
 		286F88501B9D95440092639B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 286F88291B9D95430092639B /* XTHUD */;
+			target = 286F88291B9D95430092639B /* XTHUDDemo */;
 			targetProxy = 286F884F1B9D95440092639B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -429,10 +401,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = XTHUD/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/TWHUDDemo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lza.XTHUD;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = XTHUDDemo;
 			};
 			name = Debug;
 		};
@@ -440,10 +412,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = XTHUD/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/TWHUDDemo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lza.XTHUD;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = XTHUDDemo;
 			};
 			name = Release;
 		};
@@ -454,8 +426,8 @@
 				INFOPLIST_FILE = XTHUDTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lza.XTHUDTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XTHUD.app/XTHUD";
+				PRODUCT_NAME = XTHUDDemo;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XTHUDDemo.app/XTHUDDemo";
 			};
 			name = Debug;
 		};
@@ -466,8 +438,8 @@
 				INFOPLIST_FILE = XTHUDTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lza.XTHUDTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XTHUD.app/XTHUD";
+				PRODUCT_NAME = XTHUDDemo;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XTHUDDemo.app/XTHUDDemo";
 			};
 			name = Release;
 		};
@@ -477,7 +449,7 @@
 				INFOPLIST_FILE = XTHUDUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lza.XTHUDUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = XTHUDDemo;
 				TEST_TARGET_NAME = XTHUD;
 				USES_XCTRUNNER = YES;
 			};
@@ -489,7 +461,7 @@
 				INFOPLIST_FILE = XTHUDUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lza.XTHUDUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = XTHUDDemo;
 				TEST_TARGET_NAME = XTHUD;
 				USES_XCTRUNNER = YES;
 			};
@@ -498,7 +470,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		286F88251B9D95430092639B /* Build configuration list for PBXProject "XTHUD" */ = {
+		286F88251B9D95430092639B /* Build configuration list for PBXProject "XTHUDDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				286F88551B9D95440092639B /* Debug */,
@@ -507,7 +479,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		286F88571B9D95440092639B /* Build configuration list for PBXNativeTarget "XTHUD" */ = {
+		286F88571B9D95440092639B /* Build configuration list for PBXNativeTarget "XTHUDDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				286F88581B9D95440092639B /* Debug */,
@@ -516,7 +488,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		286F885A1B9D95440092639B /* Build configuration list for PBXNativeTarget "XTHUDTests" */ = {
+		286F885A1B9D95440092639B /* Build configuration list for PBXNativeTarget "XTHUDDemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				286F885B1B9D95440092639B /* Debug */,
@@ -525,7 +497,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		286F885D1B9D95440092639B /* Build configuration list for PBXNativeTarget "XTHUDUITests" */ = {
+		286F885D1B9D95440092639B /* Build configuration list for PBXNativeTarget "XTHUDDemoUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				286F885E1B9D95440092639B /* Debug */,

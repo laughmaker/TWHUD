@@ -12,14 +12,23 @@
 
 #import <UIKit/UIKit.h>
 
-@interface XTProgressHUD : UIView
+@interface TWHUD : UIView
+
+/// HUD圆角内容视图
+@property (strong, nonatomic) UIToolbar *contentView;
+
+/// 显示在指示器下方的文字
+@property (strong, nonatomic) UILabel *textLbl;
+
+/// 活动指示器
+@property (strong, nonatomic) UIActivityIndicatorView *indicatorView;
 
 /**
  *  便利方法创建实例对象
  *
  *  @return Progress实例对象
  */
-+ (instancetype)progressHUD;
++ (instancetype)hud;
 
 /**
  *  显示HUD
